@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.destination-name {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.image {
+  height: 20vh;
+  width: 200px;
+  border-radius: 10px;
+}
+.li-container {
+  margin: 20px;
+}

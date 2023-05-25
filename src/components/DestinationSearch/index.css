@@ -1,0 +1,77 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #ffffff;
+  background-size: cover;
+  width: 80vw;
+  margin: 50px;
+  box-shadow: 0px 2px 1px gainsboro;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+}
+
+@media (max-width: 768px) {
+  .bg-container {
+    width: 50vw;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bolder;
+  color: #000000;
+}
+
+.search-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: -30px;
+  margin-right: 10px;
+  padding-top: 20px;
+  padding-right: 10px;
+}
+
+.search-input {
+  height: 30px;
+  width: 250px;
+  padding-left: 20px;
+  padding-right: 30px;
+  background-color: rgb(234, 243, 241);
+  border: none;
+  border-radius: 5px;
+}
+
+.ul-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 70vw;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+@media (max-width: 768px) {
+  .ul-container {
+    width: 50vw;
+  }
+}
+
+.destination-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+}
+
+.countries-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
